@@ -14,7 +14,7 @@
                 <div class="form-group">
                     <label for="nickname">닉네임</label>
                     <input id="nickname" type="text" th:field="*{nickname}" class="form-control"
-                           placeholder="whiteship" aria-describedby="nicknameHelp" required minlength="3" maxlength="20">
+                           placeholder="..." aria-describedby="nicknameHelp" required minlength="3" maxlength="20">
                     <small id="nicknameHelp" class="form-text text-muted">
                         3자 이상 20자 이내
                     </small>
@@ -45,7 +45,7 @@
             </form>
         </div>
 
-        <div class="fragments.html :: footer"></div>
+        <div th:replace="fragments.html :: footer"></div>d
     </div>
     <script th:replace="fragments.html :: form-validation"></script>
 </body>

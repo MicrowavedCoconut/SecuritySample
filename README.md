@@ -13,5 +13,4 @@ Dependencies
 - Spring Security
 - Spring Data JPA
 - H2 Database
-- PostgreSQL Driver
 - Java Mail Sender
